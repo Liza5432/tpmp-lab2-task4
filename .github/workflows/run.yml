@@ -2,15 +2,15 @@ name: run
 on: [push, pull_request]
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
+  build:
+    runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-      - name: Build with make
-        run: make
+      - name: Build with make
+        run: make
 
-      - name: Run the program
-        run: ./app
+      - name: Run the program
+        run: ./app
