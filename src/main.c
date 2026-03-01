@@ -19,7 +19,7 @@ int main(){
     const char *file2 = "result.txt";
     Display(file1);
     Find(file1, file2);
-   
+    printf("\nРезультаты поиска:\n");
     Display(file2);
 
     return 0;
